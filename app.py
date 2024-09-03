@@ -34,7 +34,7 @@ def get_grade():
 
     # enter password
     password_field = driver.find_element(By.ID, "passwordInput")
-    password_field.send_keys("Pradnya1!")
+    password_field.send_keys("XXX") #personal password
 
     submit_button = driver.find_element(By.ID, "submitButton")
     submit_button.click()
