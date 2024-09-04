@@ -1,2 +1,6 @@
 # UWaterloo-Personal-Grade-Scraper
 A Selenium script to automate going through the Quest portal and texting you back your grades.
+
+This project was inspired by a personal experience I had. All my final exams were completed and I was waiting until the day they would all be released by the school, only to find that 3 out of 5 courses still didn't have their grades uploaded. This happens from time to time especially when the professors need more time to mark if their course's exam happens to be one later in the exam period, but I would go through the tedious process of checking the Quest (Waterloo's admin portal) portal every few hours by doing the whole login, 2FA, all while needing to be at my computer to do so.
+
+That is when I built a script to automate going through the stages of filling in my information, hopping through different iFrames, and finally reading my grades and printing them back to the screen. However, I wanted to take it a step further because I still had to be at my computer to run the program. I decided to integrate Twilio into the application and run it all on a Flask server so that I could send a message to the Twilio phone number, and it would run the script and send me back my grades all while not having to be at home!
